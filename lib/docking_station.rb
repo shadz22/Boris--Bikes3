@@ -1,11 +1,8 @@
+require_relative 'bike'
+
 class DockingStation
   def release_bike
-
+    bike = ""
+    bike = Bike.new
   end
 end 
-
-=begin
-docking_station = DockingStation.new
-bike = docking_station.release_bike
-bike.working?
-=end
